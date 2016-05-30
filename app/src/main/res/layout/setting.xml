@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:padding="20dip">
+
+        <info.hoang8f.widget.FButton
+            fbutton:buttonColor="#FFFFFF"
+            fbutton:shadowColor="#ABB4B8"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="5dp"
+            android:id="@+id/btnwifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wifi ON/OFF"
+            android:textColor="#000000"
+            android:gravity="left|center_vertical"
+            android:drawablePadding="18dip"
+            android:scaleType="fitXY"
+            android:drawableLeft="@drawable/wifiimg"
+            android:paddingLeft="18dip"
+            android:paddingRight="18dip"
+            android:onClick="wifiOnOFF"/>
+
+    </LinearLayout>
+</LinearLayout>
